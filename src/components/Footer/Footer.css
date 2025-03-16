@@ -1,0 +1,238 @@
+/* Footer Container */
+.footer-container {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px 10px 20px 10px ;
+    animation: fadeIn 1.2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Footer Wrapper */
+  .footer-wrapper {
+    margin: 10px 10px 20px 10px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  
+  
+  /* Styling for the site name */
+  .site-name {
+    font-size: 1.5rem; /* Adjust font size */
+    color: rgb(255, 166, 0); /* Default color */
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .site-name:hover {
+    color: #f1c40f; /* Hover color */
+  }
+  .footer-about {
+    font-size: 0.9rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-about:hover {
+    color: #f1f5f3;
+  }
+  
+  /* Contact Details */
+  .contact-details p {
+    margin: 5px 0;
+    line-height: 1.5;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-details p:hover {
+    color: #fcfcfc;
+  }
+  
+  /* Footer Links */
+  .footer-links,
+  .footer-services {
+    width: 15%;
+  }
+  
+  .footer-links:hover,
+  .footer-services:hover {
+    transform: translateY(-5px);
+  }
+  
+  .links-header,
+  .services-header {
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(255, 166, 0); /* Default color */
+    transition: color 0.3s ease;
+  }
+  
+  .links-header:hover,
+  .services-header:hover {
+    color: #f1c40f; /* Hover color */
+  }
+  
+  .links-list,
+  .services-list {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+     color: #eff2f0;
+  }
+  
+  .links-list.open,
+  .services-list.open {
+    max-height: 300px; /* Adjust depending on the content length */
+    opacity: 1;
+  }
+  
+  .links-list li,
+  .services-list li {
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .links-list li i,
+  .services-list li i {
+    margin-right: 10px;
+    color: #00c851;
+  }
+  .footer-links .links-list li {
+    color: #eff2f0;
+  }
+  
+  .footer-links .links-list li a {
+     color: #eff2f0 !important; /* Ensures links inside the list items are also styled */
+  }
+  
+  
+  .links-list li:hover,
+  .services-list li:hover {
+    transform: translateX(10px);
+  }
+  
+  .links-list li {
+    color: #00c851;
+  }
+  
+  /* Social Section */
+  .footer-social {
+    flex: 1;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .social-header {
+    color: rgb(255, 166, 0); /* Default color */
+  }
+  
+  .social-header:hover {
+    color: #f1c40f; /* Hover color */
+  }
+  .social-icons {
+    display: flex;
+    animation: fadeIn 1.8s ease-in-out;
+  }
+  
+  .social-icons .icon {
+    margin-right: 25px;
+    font-size: 1.5rem;
+    color: #f6f94c;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icons .icon:hover {
+    transform: scale(1.2);
+    color: #edf5f7;
+  }
+  
+  .privacy-link {
+    display: block;
+    margin-top: 20px;
+    color: #3df50a;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    font-size: 1.5rem;
+  }
+  
+  .privacy-link:hover {
+    color: #ffffff;
+    text-shadow: 0 0 5px #00c851;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #bbb;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Scroll to Top Button (Optional) */
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #c80000;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .scroll-to-top:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Media Query for Mobile View */
+  @media screen and (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items:flex-start;
+    }
+  
+    .footer-links,
+    .footer-services,
+    .footer-social {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .social-icons {
+      justify-content: flex-start;
+    }
+  }
+  /* Default color for all <li> elements in footer-links */
+  .footer-links .links-list li {
+    color: #f4f4f4 !important; /* Light gray default text color with priority */
+    transition: color 0.3s ease !important; /* Smooth transition */
+  }
+  
+  /* Hover color for all <li> elements in footer-links */
+  .footer-links .links-list li:hover {
+    color: #00c851 !important; /* Green hover color with priority */
+    transition: color 0.3s ease !important; /* Smooth transition */
+  }
