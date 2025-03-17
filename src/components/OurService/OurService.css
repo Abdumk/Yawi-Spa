@@ -1668,8 +1668,10 @@ p.me {
 }
 }
 .banner1 {
-  background: url(../../../public/assets/image/BW_tranquility_massagetreatment_lp_v2\ copy\ 2.webp) no-repeat center fixed;
+  background: url(../../../public/assets/image/BW_tranquility_massagetreatment_lp_v2\ copy\ 2.webp) no-repeat center fixed; /* best image */
   /* background: url(../../assets/images/hhotstone.jpg) no-repeat center fixed; */
+  
+
 
   background-size: cover;
   -webkit-background-size: cover;

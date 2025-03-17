@@ -47,6 +47,8 @@ const OurService = () => {
             <div className="col-md-4 services-left">
               <img src={img6} className="img-responsive" alt="" />
               <h2 >Deep tissue massage 1hr 1500 birr</h2>
+              <p>Contrary to popul years rginia, looked. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"</p>
+
               {/* <h2 id="title">Deep tissue massage 1hr 1500</h2>
 
               <ul>
