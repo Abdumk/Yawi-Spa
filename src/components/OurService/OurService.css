@@ -1076,6 +1076,7 @@ h3.banner-main {
 }
 .container {
   width: 700px !important;
+ 
 }
 .generators-left {
   float: left;
@@ -1208,6 +1209,9 @@ h3.banner-main {
 }
 .container {
   width: 586px !important;
+  
+
+
 }
 .ch-info h3 {
   font-size: 15px;
@@ -1307,6 +1311,9 @@ h3.banner-main {
 }
 .container {
   width: 423px !important;
+ 
+
+
 }
 .gener h3 {
   font-size: 1.8em;
@@ -1506,6 +1513,9 @@ h3.banner-main {
 }
 .container {
   width: 260px !important;
+ 
+
+
 }
 .ch-grid li {
   height: 165px;
@@ -1656,4 +1666,26 @@ p.me {
 .ch-info-back {
   padding: 8px 0 0;
 }
+}
+.banner1 {
+  background: url(../../../public/assets/image/BW_tranquility_massagetreatment_lp_v2\ copy\ 2.webp) no-repeat center fixed;
+  /* background: url(../../assets/images/hhotstone.jpg) no-repeat center fixed; */
+
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 350px;
+  width: 100%; /* Ensure the banner takes up 100% width */
+    margin-top: 20px; /* Adjust the distance to the header */
+
+}
+.header-right {
+  width: 100%; /* Ensure the parent container takes up 100% width */
+}
+.services-left img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover; /* Ensures images maintain aspect ratio and cover the area */
 }
