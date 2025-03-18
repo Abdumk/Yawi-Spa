@@ -804,11 +804,11 @@ li a:hover:not(.active) {
     box-sizing: border-box;
 }
 
-/* .carousel-item img {
+ .carousel-item img {
     width: 100%;
     height: auto;
     display: block;
-} */
+} 
 
 .carousel-item img {
     width: 100vw; /* Full width */
@@ -1787,3 +1787,4 @@ textarea {
 
 
 /* End contact styles*/
+/* Override Bootstrap's image styles in your custom CSS */

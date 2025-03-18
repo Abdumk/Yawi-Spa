@@ -22,9 +22,9 @@ function Header() {
     }
   };
 
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+  // const scrollToTop = () => {
+  //   window.scrollTo({ top: 0, behavior: 'smooth' });
+  // };
 
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside);
@@ -48,8 +48,10 @@ function Header() {
         </button> */}
         <nav>
       <ul>
-        <div className="homebanner">
+        <div> 
+          <Link to="/"className="homebanner">
           {/* Photo inserted here */}
+          </Link>
         </div>
         {/* <span className="logo">
           <h1 className="light">Yawi Massage</h1>
@@ -65,15 +67,16 @@ function Header() {
     </Link>
   </li>
   <li>
-    <Link to="/contact">
-      <h1>Contact</h1>
-    </Link>
-  </li>
-  <li>
     <Link to="/services">
       <h1>Services</h1>
     </Link>
   </li>
+  <li>
+    <Link to="/contact">
+      <h1>Contact</h1>
+    </Link>
+  </li>
+
   <li>
     <Link to="/faq">
       <h1>FAQ</h1>

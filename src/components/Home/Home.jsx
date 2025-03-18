@@ -60,7 +60,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="container__heading">
+       <div className="container__heading">
         <div className="introduction">
           <div className="homecontainer">
             <div className="carousel-container">
@@ -84,7 +84,42 @@ function Home() {
             </div>
           </div>
         </div>
+      </div> 
+    {/* <div className="col-md-9 header-right">
+      <div className="logo">
+        <a href="index.html">
+          <h1>Classy</h1>
+        </a>
       </div>
+      <div className="banner">
+        <div className="header-slider">
+          <div className="slider">
+            <div className="callbacks_container">
+              <ul className="rslides" id="slider">
+                <li>
+                  <img src={img1} className="img-responsive" alt="" />
+                  <div className="caption">
+                    <h2>Maecenas malesuad elit lectus</h2>
+                  </div>
+                </li>
+                <li>
+                  <img src={img2} className="img-responsive" alt="" />
+                  <div className="caption">
+                    <h2>Curabitur et ligula. Ut molestie</h2>
+                  </div>
+                </li>
+                <li>
+                  <img src={img3} className="img-responsive" alt="" />
+                  <div className="caption">
+                    <h2>Etiam ullamcorper. Suspendisse</h2>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> */}
 
       <main>
       <div className="container__content" style={containerStyle}>

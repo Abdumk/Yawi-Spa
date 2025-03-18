@@ -509,7 +509,15 @@ nav ul {
     align-content: center;
     padding: 0;
     margin: auto;
+    list-style-type: none; /* Removes any default bullets or checkmarks */
+    padding: 0; /* Removes padding if any */
+    margin: 0; /* Removes margin if any */
 }
+
+  
+  nav ul li {
+    list-style: none; /* Ensures no checkmarks or bullet points */
+  }
 
 li a {
     display: -webkit-box;
@@ -541,10 +549,10 @@ li a.active {
     color: rgba(72, 86, 101, 0.4);
 }
 
-li a:hover:not(.active) {
-    background-color: #477389;
-    color: white;
-}
+* li a:hover:not(.active) {
+    /* background-color: #477389; */
+    /* color: white; */
+} 
 
 .introduction {
     
@@ -724,12 +732,12 @@ li a:hover:not(.active) {
     background-size: cover;
     width: 150px;
     height: 150px;
-    /* border: solid 2px rgba(247, 220, 236, 0.63); */
-    /* border-radius: 50%; */
-    /* -webkit-transform: rotate(60deg); */
-    /* transform: rotate(60deg); */
+    /* border: solid 2px rgba(247, 220, 236, 0.63); 
+     border-radius: 25%; 
+     -webkit-transform: rotate(60deg); 
+     transform: rotate(60deg); */
     margin: 0;
-    /* transform: rotate(0deg); Rotate the whole circle */
+    transform: rotate(0deg); /* Rotate the whole circle */
 }
 
 .homebanner h1 {
@@ -1792,3 +1800,4 @@ textarea {
 
 
 /* End contact styles*/
+/* In Header.css */

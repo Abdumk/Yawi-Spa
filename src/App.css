@@ -1,0 +1,11 @@
+/* In Header.css */
+nav ul {
+    list-style-type: none; /* Removes any default bullets or checkmarks */
+    padding: 0; /* Removes padding if any */
+    margin: 0; /* Removes margin if any */
+  }
+  
+  nav ul li {
+    list-style: none; /* Ensures no checkmarks or bullet points */
+  }
+  

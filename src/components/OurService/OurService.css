@@ -896,11 +896,6 @@ ul li {
   margin-bottom: 8px;
 }
 
-ul li::before {
-  content: "✔ ";
-  color: green;
-  font-weight: bold;
-}
 
 /*-- responsive-mediaquries --*/
 @media(max-width:1440px){
