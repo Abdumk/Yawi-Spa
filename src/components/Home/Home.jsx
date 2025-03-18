@@ -2,6 +2,10 @@ import React, { useState, useEffect, useRef } from "react";
 import img1 from "/assets/image/IMG-20250308-WA0003.jpg";
 import img2 from "/assets/image/IMG-20250308-WA0005.jpg";
 import img3 from "/assets/image/IMG-20250308-WA0006.jpg";
+import img4 from "../../assets/images/8.jpg";
+
+import img5 from "../../assets/images/3.jpg";
+
 import backgroundImage from "/assets/image/19.jpg";
 
 
@@ -131,19 +135,19 @@ function Home() {
             <ul>
               <li>
                 <p className="visit">
-                  <i className="fa fa-envira" aria-hidden="true"></i>
+                  
                   Choosing time for a spa visit also means improving your health.
                 </p>
               </li>
               <li>
                 <p className="visit">
-                  <i className="fa fa-envira" aria-hidden="true"></i>
+                  
                   All massages and facials are given by professionally trained staff members.
                 </p>
               </li>
               <li>
                 <p className="visit">
-                  <i className="fa fa-envira" aria-hidden="true"></i>
+                  
                   Our goal is to provide a delightful experience. Visit our services page to learn more.
                 </p>
               </li>
@@ -203,6 +207,84 @@ function Home() {
           <section className="subcol3"></section>
         </div>
       </main>
+      {/* // Add the following code snippet here */}
+      <div className="header">
+<div className="header-top">
+      <div className="gener">
+      <div className="container">
+        <h3>Massage Services</h3>
+        <section className="main">
+          <ul className="ch-grid">
+            <li>
+              <div className="ch-item ch-img-1">
+                <div className="ch-info-wrap">
+                  <div className="ch-info">
+                    <div className="ch-info-front ch-img-1"></div>
+                    <div className="ch-info-back">
+                      <h3>Head </h3>
+                      <p>by industry's standard</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="ch-item ch-img-2">
+                <div className="ch-info-wrap">
+                  <div className="ch-info">
+                    <div className="ch-info-front ch-img-2"></div>
+                    <div className="ch-info-back">
+                      <h3>Swedish</h3>
+                      <p>by text ever since</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="ch-item ch-img-3">
+                <div className="ch-info-wrap">
+                  <div className="ch-info">
+                    <div className="ch-info-front ch-img-3"></div>
+                    <div className="ch-info-back">
+                      <h3>Hot stone</h3>
+                      <p>by of type scrambled</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="ch-item ch-img-4">
+                <div className="ch-info-wrap">
+                  <div className="ch-info">
+                    <div className="ch-info-front ch-img-4"></div>
+                    <div className="ch-info-back">
+                      <h3>foot</h3>
+                      <p>by Dustin Leer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    </div>
+    {/* // Add the following code snippet here */}
+    
+    <div class="our">
+	<div class="container">
+		<div class="our-info">
+			<img src= {img2} class="img-responsive" alt="" />
+			<h4>Finibus Bonorum et Malorum</h4>
+			<p>which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generat</p>
+		</div>
+</div>
+</div>
+    {/* // Add the following code snippet here */}
+    </div>
     </div>
   );
 }

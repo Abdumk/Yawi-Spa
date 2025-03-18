@@ -1,49 +1,55 @@
 .mini-header-wrapper {
-    background-color: #1e2a49; /* Match the blue color */
-    padding: 10px 0;
-  }
-  
-  .mini-topbar {
-    background-color: #1e2a49;
-    height: 30px;
-    width: 100%;
-    font-size: 14px;
-  }
-  
-  .mini-contact-info i,
-  .mini-social-links i {
-    color: rgb(18, 239, 11);
-    font-size: 16px;
-  }
-  
-  .mini-contact-info a,
-  .mini-social-links a {
-    text-decoration: none;
-    color: rgb(18, 239, 11);
-  }
-  
-  .mini-social-links a {
-    margin-left: 15px;
-  }
-  
-  .mini-social-links a:hover {
-    color: #ffcc00;
-  }
-  
-  /* Hide text on small screens */
+  background-color: #1e2a49; /* Match the blue color */
+  padding: 10px 0;
+}
+
+.mini-topbar {
+  background-color: #1e2a49;
+  height: 30px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.mini-contact-info i,
+.mini-social-links i {
+  color: rgb(18, 239, 11);
+  font-size: 16px;
+}
+
+.mini-contact-info a,
+.mini-social-links a {
+  text-decoration: none;
+  color: rgb(18, 239, 11);
+}
+
+/* Ensure social icons are aligned to the left */
+.mini-social-links {
+  display: flex;
+}
+
+.mini-social-links a {
+  margin-left: 15px;
+}
+
+.mini-social-links a:hover {
+  color: #ffcc00;
+}
+
+/* Hide text on small screens */
+.mini-contact-info span {
+  display: none;
+}
+
+/* Show text on medium and larger screens */
+@media (min-width: 768px) {
   .mini-contact-info span {
-    display: none;
+    display: inline; /* Show the text next to icons */
+    margin-left: 5px;
   }
-  
-  
-  /* Show text on medium and larger screens */
-  
-  @media (min-width: 768px) {
-    
-    .mini-contact-info span {
-      display: inline; /* Show the text next to icons */
-      margin-left: 5px;
-    }
-   
-  }
-  
+}
+
+/* Move the phone number to the right */
+.container {
+  display: flex;
+  align-items: end;
+}

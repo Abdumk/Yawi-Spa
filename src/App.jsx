@@ -1,6 +1,6 @@
+//import 'bootstrap/dist/css/bootstrap.min.css'; //when i Import Bootstrap CSS the Home page banner not working
 import { useState } from 'react'
 import "bootstrap-icons/font/bootstrap-icons.css";
-import 'bootstrap/dist/css/bootstrap.min.css'; //when i Import Bootstrap CSS the Home page banner not working
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Route, Routes } from 'react-router-dom';
 import About from './components/About/About';
@@ -11,12 +11,15 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home';
 import OurService from './components/OurService/OurService';
+import { useLocation } from 'react-router-dom';
 import  './App.css'
 function App() {
-  
+  const location = useLocation();
+const isServicePage = location.pathname === '/';
 
   return (
     <>
+     {!isServicePage && <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />}
       <Header />
       <Routes>
         <Route path="" element={<Home />} />

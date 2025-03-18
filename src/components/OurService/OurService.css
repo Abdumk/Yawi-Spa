@@ -305,7 +305,7 @@ ul a:focus {
 }
 .gener h3 {
   font-size: 3em;
-  margin: 0 0 1em;
+  margin: auto;
   font-weight: 400;
   color:#7c7d6b;
   font-family: 'Quicksand', sans-serif;
@@ -325,7 +325,7 @@ ul a:focus {
 }
 /*--start-our--*/
 .our{
-  background: url(../images/3.jpg) no-repeat center fixed;
+  background: url(../../assets/images/3.jpg) no-repeat center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -680,7 +680,7 @@ i.mail {
   margin: 3em 0 0;
 }
 .ch-grid {
-	margin: 20px 0 0 0;
+	margin: 20px 350px 0 0;
 	padding: 0;
 	list-style: none;
 	display: block;
@@ -770,16 +770,18 @@ i.mail {
 	background: rgba(148, 147, 119, 1);
 }
 .ch-img-1 { 
-	background-image: url(../images/6.jpg);
+	background-image: url(../../assets/images/13.jpg);
 }
 .ch-img-2 { 
-	background-image: url(../images/7.jpg);
+	background-image: url(../../assets/images/10.jpg);
 }
 .ch-img-3 { 
-	background-image: url(../images/9.jpg);
+	background-image: url(../../assets/images/9.jpg);
 }
 .ch-img-4 { 
-	background-image: url(../images/5.jpg);
+	 background-image: url(../../assets/images/5.jpg); 
+
+
 }
 .ch-info h3 {
 	color: #fff;
@@ -866,10 +868,10 @@ text-decoration:none;
 .foot-bottom a:hover{
  color: #5F5E41;
 }
-body {
+ body {
   font-family: Arial, sans-serif;
-  text-align: center;
-}
+  /* text-align: center; */
+} 
 
 button {
   padding: 10px;
@@ -1158,7 +1160,7 @@ h3.banner-main {
   height: 50px;
 }
 .logo {
-  width: 34%;
+  width: 100%;
   margin: 1em auto 2em;
 }
 }
@@ -1683,6 +1685,6 @@ p.me {
 }
 .services-left img {
   width: 350px;
-  height: 350px;
+  height: 220px;
   object-fit: cover; /* Ensures images maintain aspect ratio and cover the area */
 }

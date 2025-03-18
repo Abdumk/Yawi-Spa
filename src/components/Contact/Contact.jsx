@@ -24,7 +24,7 @@ const Contact = () => {
         //  */}
         <div class="col-md-9 header-right">
 <div class="logo">
-    <a href="index.html"><h1>Classy</h1></a>
+    <a href="index.html"><h1>Yawi</h1></a>
   </div>
   <h3 class="banner-main">Contact Us</h3>
     <div class="banner1">	

@@ -6,20 +6,14 @@ function Miniheader() {
   return (
     <header id="mini-header" className="mini-header-wrapper">
       <div className="mini-topbar d-flex align-items-center">
-        <div className="container d-flex justify-content-between">
-          {/* Contact Info */}
-          <div className="mini-contact-info d-flex align-items-center">
-            <Link to="mailto:admin@nilefinancialservices.com" className="d-flex align-items-center">
-              <i className="bi bi-envelope"></i>
-              <span className="d-none d-md-inline ms-2">admin@nilefinancialservices.com</span>
-            </Link>
+      <div className="mini-contact-info d-flex align-items-center">
             <Link to="tel:+15713069039" className="ms-3 d-flex align-items-center">
               <i className="bi bi-telephone-fill"></i>
               <span className="d-none d-md-inline ms-2">+251 943-53-44-44</span>
             </Link>
           </div>
-
-          {/* Social Media Icons */}
+        <div className="container d-flex justify-content-between">
+          {/* Social Media Icons on the Left */}
           <div className="mini-social-links d-flex align-items-center">
             <Link
               to="https://twitter.com/Nilefinancials1"
@@ -62,7 +56,14 @@ function Miniheader() {
               <i className="bi bi-whatsapp"></i>
             </Link>
           </div>
+
+          
+
+          {/* Contact Info (Phone number on the right) */}
+         
         </div>
+
+       
       </div>
     </header>
   );
