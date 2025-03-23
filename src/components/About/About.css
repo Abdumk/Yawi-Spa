@@ -1,0 +1,201 @@
+.about-section {
+    max-width: 1200px;
+    padding: 40px 20px;
+  }
+  
+  /* Section Titles */
+  .about-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #4a4a4a;
+  }
+  
+  /* Text Content */
+  .about-section h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p {
+    font-size: 0.95rem;
+    color: #6b7280;
+    line-height: 1.6;
+  }
+  
+  /* Grid Layout */
+  .about-section .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  /* Responsive Grid (for larger screens) */
+  @media screen and (max-width: 992px) {
+    .about .container {
+      text-align: center;
+    }
+    .about-content {
+      padding: 10px;
+    }
+    .about ul {
+      padding-left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .about h3 {
+      font-size: 1.5rem;
+    }
+    .about p, .about ul li {
+      font-size: 0.95rem;
+    }
+    .about-image {
+      width: 90%;
+      margin: auto;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .about {
+      padding: 20px 10px;
+    }
+    .about h3 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    .about p, .about ul li {
+      font-size: 0.85rem;
+      text-align: justify;
+    }
+    .about-image {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+    }
+    .about ul {
+      padding: 0 10px;
+    }
+  }
+  
+  /* Staff Section */
+  .about-section .grid-cols-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .about-section .grid-cols-2 img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .about-section .grid-cols-2 img:hover {
+    transform: scale(1.05);
+  }
+  .about .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .about .container .col-lg-6 {
+    padding: 20px;
+  }
+  
+  .about .container .about-content {
+    padding-left: 20px;
+  }
+  
+  /* Ensure equal height for the image and text sections */
+#about .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about .container .row {
+  display: flex;
+  align-items: stretch; /* Ensures the left and right sides are equal in height */
+}
+
+#about .container .col-lg-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about .about-image {
+  width: 100%; /* Make the image take up full width of its column */
+  height: 100%; /* Make sure it stretches to match the column height */
+  object-fit: cover; /* Ensure the image covers the full height and width without distortion */
+}
+
+.about-content {
+  padding-left: 200px;
+}
+
+.about-content h3 {
+ 
+  text-align: center;
+  
+}
+
+.about-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.about-content li {
+  margin-bottom: 10px;
+}
+
+/* 1st layout control */
+/* Apply yellow background color only for the about section */
+/* #about1 {
+  background-color:rgb(191, 185, 185);
+} */
+.c {
+  background-color:rgb(255, 246, 246);
+  width: 100%;
+}
+/* Optional: If you want to add some padding or other styles */
+#about .container {
+  padding: 40px 0;
+}
+/* 2nd layout control */
+
+/* Ensure that both columns are equal width */
+#about1 .container .row {
+  display: flex;
+  align-items: center; /* Vertically center content */
+}
+
+/* Optionally, add some padding and margin for better spacing */
+#about1 .col-lg-6 img {
+  width: 100%;
+  height: auto; /* Ensure the image fits within the column */
+}
+
+#about1 .about-content {
+  padding-right: 30px; /* Add padding to the right side */
+}
+
+/* 3rd layout control */
+/* Ensure that both columns are equal width */
+#philosophy .container .row {
+  display: flex;
+  align-items: center; /* Vertically center content */
+}
+
+/* Optionally, add some padding and margin for better spacing */
+#philosophy .col-lg-6 img {
+  width: 100%;
+  height: auto; /* Ensure the image fits within the column */
+}
+
+#philosophy .about-content {
+  padding-right: 30px; /* Add padding to the right side */
+}

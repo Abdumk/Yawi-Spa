@@ -1,0 +1,145 @@
+main {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:rgb(255, 246, 246);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+
+/* Optional: Style the arrows and dots */
+.slick-prev,
+.slick-next {
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+  color: white;
+}
+
+.slick-prev {
+  left: -45px;
+}
+
+.slick-next {
+  right: -45px;
+}
+
+.slick-dots {
+  bottom: 10px;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff6600 !important;
+}
+
+
+/* Optional: Style the arrows and dots */
+.slick-prev,
+.slick-next {
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+  color: white;
+}
+
+.slick-prev {
+  left: -45px;
+}
+
+.slick-next {
+  right: -45px;
+}
+
+.slick-dots {
+  bottom: 10px;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff6600 !important;
+}
+
+
+
+/* Testimonials.css */
+.testimonials {
+background-color: rgb(255, 246, 246);
+padding: 60px 0;
+}
+
+.section-title {
+text-align: center;
+margin-bottom: 40px;
+}
+
+.section-title h2 {
+font-size: 2.5rem;
+margin-bottom: 10px;
+}
+
+.section-title p {
+font-size: 1.2rem;
+color: #666;
+}
+
+.testimonials-carousel .carousel-item {
+text-align: center;
+}
+
+.testimonial-item {
+background: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+margin: 15px 15px;
+}
+
+.testimonial-img {
+width: 120px; /* Increase width */
+height: 120px; /* Increase height */
+border-radius: 50%; /* Ensure it remains circular */
+object-fit: cover; /* Prevent distortion */
+margin-bottom: 10px;
+}
+
+
+
+.testimonial-item p {
+font-size: 1.1rem;
+color: #333;
+margin-bottom: 10px;
+}
+
+.testimonial-item h4 {
+font-size: 1.2rem;
+color: #007bff;
+}

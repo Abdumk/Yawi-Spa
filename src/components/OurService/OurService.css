@@ -25,7 +25,8 @@ body a{
   background-color: rgb(203, 199, 164);
 }
 .header-top {
-  background-color: #fff;
+
+  background-color:rgb(255, 246, 246);
   border-radius: 10px;
   padding: 2em;
 }
@@ -195,7 +196,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   margin: 0 auto;
 }
 .logo h1 {
-  font-size: 4em;
+  font-size: 34px;
   text-align: center;
   color: #ed9f40;
   font-family: 'Pacifico', cursive;
@@ -339,12 +340,12 @@ ul a:focus {
   font-size: 3em;
   font-weight: 400;
   margin: 1em 0 0;
- color: #fff;
+ color: #000000;
   font-family: 'Quicksand', sans-serif;
 }
 .our p {
   font-size: 1em;
-  color: #fff;
+  color: #0b0000;
   line-height: 1.8em;
   margin: 1em 0;
  
@@ -514,16 +515,17 @@ i.mail {
 }
  h3.banner-main {
   font-size: 3em;
-  margin: 0 0 1em;
+  /* margin: 0 0 1em; */
+  margin-left: 50%;
   font-weight: 400;
   color: #5F5E41;
   font-family: 'Quicksand', sans-serif;
 }
 .about h3 {
   font-size: 3em;
-  margin: 0 0 0.5em;
+  margin: 0 auto;
   font-weight: 400;
-  padding: 0 0 0.5em;
+  padding: 0 auto;
   color: #5F5E41;
   font-family: 'Quicksand', sans-serif;
   border-bottom: 1px solid;
@@ -680,7 +682,7 @@ i.mail {
   margin: 3em 0 0;
 }
 .ch-grid {
-	margin: 20px 350px 0 0;
+	margin: 20px 780px 50px 0;
 	padding: 0;
 	list-style: none;
 	display: block;
@@ -1164,6 +1166,70 @@ h3.banner-main {
   margin: 1em auto 2em;
 }
 }
+@media screen and (max-width: 992px) {
+  .about .container {
+    text-align: center;
+  }
+  .about-content {
+    padding: 10px;
+  }
+  .about ul {
+    padding-left: 0;
+  }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin: 30px 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about h3 {
+    font-size: 1.5rem;
+  }
+  .about p, .about ul li {
+    font-size: 0.95rem;
+  }
+  .about-image {
+    width: 90%;
+    margin: auto;
+  }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin: 30px 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about {
+    padding: 20px 10px;
+  }
+  .about h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .about p, .about ul li {
+    font-size: 0.85rem;
+    text-align: justify;
+  }
+  .about-image {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+  }
+  .about ul {
+    padding: 0 10px;
+  }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin: 30px 30px;
+  }
+}
 /*-- responsive-mediaquries --*/
 @media(max-width:640px){
 .header-top {
@@ -1265,6 +1331,12 @@ h3.banner-main {
 }
 .caption h2 {
   font-size: 2em;
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+  margin: 30px 30px;
 }
 }
 /*-- responsive-mediaquries --*/
@@ -1572,7 +1644,7 @@ h3.banner-main {
   padding: 1em 0;
 }
 .about h3 {
-  font-size: 1.5em;
+  font-size: .5em;
 }
 .banner1 {
   min-height: 57px;
@@ -1663,6 +1735,12 @@ p.me {
 .ch-info-back {
   padding: 8px 0 0;
 }
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+  margin: 30px 30px;
+}
 }
 .banner1 {
   background: url(../../../public/assets/image/BW_tranquility_massagetreatment_lp_v2\ copy\ 2.webp) no-repeat center fixed; /* best image */
@@ -1687,4 +1765,54 @@ p.me {
   width: 350px;
   height: 220px;
   object-fit: cover; /* Ensures images maintain aspect ratio and cover the area */
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 30px 30px;
+}
+
+.service-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-content {
+  padding: 20px;
+}
+
+.service-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.service-details {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.service-price {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.service-description {
+  color: #555;
+  line-height: 1.6;
 }

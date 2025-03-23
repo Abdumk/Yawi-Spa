@@ -1,7 +1,7 @@
 /* Footer Container */
 .footer-container {
-    background-color: #1e1e1e;
-    color: #ffffff;
+    background-color: #730a38;
+    color: #ecf805;
     font-family: Arial, sans-serif;
     padding: 20px 10px 20px 10px ;
     animation: fadeIn 1.2s ease-in-out;
@@ -96,6 +96,13 @@
     transition: max-height 0.5s ease, opacity 0.5s ease;
      color: #eff2f0;
   }
+
+  .links-list li a {
+    display: inline-block;
+    padding: 0;
+    text-decoration: none;
+    font-size: 16px;
+  }
   
   .links-list.open,
   .services-list.open {
@@ -136,6 +143,7 @@
   .footer-social {
     flex: 1;
     animation: fadeIn 1.5s ease-in-out;
+    margin-left: 300px;
   }
   
   .social-header {
@@ -219,6 +227,7 @@
     .footer-social {
       width: 100%;
       margin-bottom: 20px;
+      
     }
   
     .social-icons {
