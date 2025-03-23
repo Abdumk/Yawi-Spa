@@ -9,7 +9,9 @@ import App from "./App";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <StrictMode>
-  <BrowserRouter basename="/Yawi-Spa">
+  {/* <BrowserRouter basename="/Yawi-Spa"> */}
+  <BrowserRouter >
+
     <App />
   </BrowserRouter>
   </StrictMode>

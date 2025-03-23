@@ -13,7 +13,11 @@ const Contact = () => {
 
 	</div>
           <p>Need help? Get in touch with us for more information or assistance.</p>
-          <p className="quote">"Need instant support? Use the chat button in the bottom-right corner."</p>
+          
+          <p className="quote">
+  <strong>Need instant support?</strong> Call us now!
+</p>
+
         </div>
 
         {/* Contact Info Grid */}
@@ -21,20 +25,23 @@ const Contact = () => {
           <div className="contact-card">
             <i className="bi bi-geo-alt"></i>
             <h3>Address</h3>
-            <p>4128 Ashmere Cir, Montclair, VA 22025, USA</p>
+            <p>Bole</p>
           </div>
 
           <div className="contact-card">
             <i className="bi bi-map"></i>
             <h3>Service Area</h3>
-            <p>Alexandria, VA · Fairfax, VA · Washington, DC · Maryland</p>
+            <p>Addis Ababa, Ethiopia</p>
+<p>
+4 kilo,&nbsp;&nbsp;&nbsp;Megenagna,&nbsp;&nbsp;&nbsp;Gotera  
+</p>
           </div>
 
           <div className="contact-card">
             <i className="bi bi-telephone"></i>
             <h3>Call Us</h3>
             <p>
-              <strong>Phone:</strong> <a href="tel:+15713069039">+251 943-53-44-44</a>
+              <strong>Phone:</strong> <a href="tel:+251 943-53-44-44">+251 943-53-44-44</a>
             </p>
           </div>
 
@@ -42,7 +49,7 @@ const Contact = () => {
             <i className="bi bi-envelope"></i>
             <h3>Email Us</h3>
             <p>
-              <strong>Email:</strong> <a href="mailto:admin@nilefinancialservices.com">admin@nilefinancialservices.com</a>
+              <strong>Email:</strong> <a href="mailto:yawispa4353@gmail.com">yawispa4353@gmail.com</a>
             </p>
           </div>
         </div>

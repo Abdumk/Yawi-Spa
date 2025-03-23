@@ -143,3 +143,12 @@ margin-bottom: 10px;
 font-size: 1.2rem;
 color: #007bff;
 }
+
+body {
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Adjust the footer icon section */
+.footer-icons {
+  overflow: hidden; /* Hide any overflowing content */
+}

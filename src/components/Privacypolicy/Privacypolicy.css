@@ -38,7 +38,7 @@
   .content {
     max-width: 800px;
     margin: 0 auto;
-    background: #fff;
+    background:#666;
     padding: 30px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -47,13 +47,13 @@
   .content h3 {
     font-size: 24px;
     font-weight: 600;
-    color: #333;
+    color: #f9f9f9;
     margin-top: 20px;
   }
   
   .content p {
     font-size: 16px;
-    color: #666;
+    color: #f9f9f9;
     line-height: 1.6;
     margin-top: 10px;
   }
@@ -61,3 +61,16 @@
   .content p strong {
     color: #333;
   }
+
+  .privacy-policy {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    /* background-image: url('../../../public/assets/image/IMG-20250308-WA0007.jpg'); */
+    background-image: url('../../../public/assets/image/IMG-20250308-WA0008.jpg'); 
+
+    /* background-image: url('../../../public/assets/image/IMG-20250308-WA0009.jpg');  */
+
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background image fixed during scrolling */
+}

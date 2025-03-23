@@ -1,7 +1,8 @@
 /* Footer Container */
 .footer-container {
-    background-color: #730a38;
-    color: #ecf805;
+    /* background-color: #730a38; */
+    background-color:#2c3e50;
+    color: #d3d3d3;
     font-family: Arial, sans-serif;
     padding: 20px 10px 20px 10px ;
     animation: fadeIn 1.2s ease-in-out;
@@ -35,7 +36,7 @@
   /* Styling for the site name */
   .site-name {
     font-size: 1.5rem; /* Adjust font size */
-    color: rgb(255, 166, 0); /* Default color */
+    color: #f4c542; /* Default color */
     transition: color 0.3s ease; /* Smooth hover effect */
   }
   
@@ -77,13 +78,14 @@
   .services-header {
     font-size: 1rem;
     cursor: pointer;
-    color: rgb(255, 166, 0); /* Default color */
+    color:#f4c542; /* Default color */
     transition: color 0.3s ease;
+  padding-bottom: 14px;
   }
   
   .links-header:hover,
   .services-header:hover {
-    color: #f1c40f; /* Hover color */
+    color: #4CAF50; /* Hover color */
   }
   
   .links-list,
@@ -143,32 +145,49 @@
   .footer-social {
     flex: 1;
     animation: fadeIn 1.5s ease-in-out;
-    margin-left: 300px;
+    
+    margin:40px 40px 0 90px ;
+
   }
   
   .social-header {
-    color: rgb(255, 166, 0); /* Default color */
+    color:#f4c542; /* Default color */
+    padding-bottom: 14px;
+    margin-top: 15px;
   }
   
   .social-header:hover {
-    color: #f1c40f; /* Hover color */
+    color:#4CAF50; /* Hover color */
   }
   .social-icons {
     display: flex;
     animation: fadeIn 1.8s ease-in-out;
   }
-  
-  .social-icons .icon {
-    margin-right: 25px;
-    font-size: 1.5rem;
-    color: #f6f94c;
-    transition: transform 0.3s ease, color 0.3s ease;
-  }
-  
-  .social-icons .icon:hover {
-    transform: scale(1.2);
-    color: #edf5f7;
-  }
+ .social-icons {
+  display: flex;
+  gap: 15px; /* Adjust spacing between icons */
+}
+
+.social-icons .icon {
+  font-size: 24px; /* Adjust icon size */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+/* Standard Colors for Each Social Media Platform */
+.icon.facebook { color: #0471ff; } /* Facebook (Blue) */
+.icon.instagram { color: #E4405F; } /* Instagram (Pink/Red) */
+.icon.telegram { color: #00aaff; } /* Telegram (Blue) */
+.icon.whatsapp { color: #25D366; } /* WhatsApp (Green) */
+.icon.email { color: #D44638; } /* Email (Red) */
+.icon.tiktok { color: #000000; } /* TikTok (Black) */
+
+/* Hover Effects */
+.icon:hover {
+  opacity: 0.7;
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
   
   .privacy-link {
     display: block;
@@ -244,4 +263,24 @@
   .footer-links .links-list li:hover {
     color: #00c851 !important; /* Green hover color with priority */
     transition: color 0.3s ease !important; /* Smooth transition */
+  }
+
+  .social-icons .icon {
+    background: transparent;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  
+  .social-icons .icon:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  @media (max-width: 768px) {
+    .footer {
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  
+    /* Adjust icon size and layout for smaller screens */
+    .footer-icons {
+      flex-direction: column; /* Stack icons vertically if necessary */
+    }
   }

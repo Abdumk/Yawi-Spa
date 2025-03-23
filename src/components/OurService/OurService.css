@@ -1743,11 +1743,7 @@ p.me {
 }
 }
 .banner1 {
-  background: url(../../../public/assets/image/BW_tranquility_massagetreatment_lp_v2\ copy\ 2.webp) no-repeat center fixed; /* best image */
-  /* background: url(../../assets/images/hhotstone.jpg) no-repeat center fixed; */
-  
-
-
+  background: url(../../../public/assets/image/BW_tranquility_massagetreatment_lp_v2\ copy\ 2.webp) no-repeat center fixed; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1815,4 +1811,75 @@ p.me {
 .service-description {
   color: #555;
   line-height: 1.6;
+}
+/* OurService.css */
+
+/* General Styles */
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the items */
+  margin: 0 -15px; /* Adjust for gutter due to padding/margin on cards */
+}
+
+/* Individual Service Card Styles */
+.service-card {
+  flex: 1 0 100%; /* Default to full width */
+  padding: 15px; /* Add padding */
+  box-sizing: border-box; /* Include padding in width/height */
+}
+
+/* Media Query for larger screens */
+@media (min-width: 768px) {
+  .service-card {
+    flex: 1 0 48%; /* Two items per row */
+  }
+}
+
+@media (min-width: 992px) {
+  .service-card {
+    flex: 1 0 30%; /* Three items per row */
+  }
+}
+
+/* Optional: Service Image Style */
+.service-image img {
+  width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Service Content Styles */
+.service-content {
+  padding: 15px;
+}
+
+/*try*/
+
+
+
+
+/* Responsive Adjustments with Media Queries */
+@media (min-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row on medium screens */
+  }
+
+  .banner1 {
+    background: url(../../../public/assets/image/BW_tranquility_massagetreatment_lp_v2\ copy\ 2.webp) no-repeat center fixed; /* Optional: Change to a different image for larger screens */
+    background-size: cover; 
+   
+  }
+}
+
+@media (min-width: 992px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row on large screens */
+  }
+
+  .banner1 {
+    background: url(../../../public/assets/image/BW_tranquility_massagetreatment_lp_v2\ copy\ 2.webp) no-repeat center fixed; /* Optional: Change to an even larger image */
+    background-size: cover; 
+   
+
+  }
 }

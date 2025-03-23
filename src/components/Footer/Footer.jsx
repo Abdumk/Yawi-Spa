@@ -50,19 +50,19 @@ function Footer() {
 </p> */}
 <p>Addis Ababa, Ethiopia</p>
 <p>
-  Bole,&nbsp;&nbsp;&nbsp;Lideta,&nbsp;&nbsp;&nbsp;4 kilo, &nbsp;&nbsp;&nbsp;Megenagna, 
+  Bole,&nbsp;&nbsp;&nbsp;4 kilo ,&nbsp;&nbsp;&nbsp;Gotera, &nbsp;&nbsp;&nbsp;Megenagna, 
 </p>
 
 
               <p>
                 <strong>Phone:</strong> +251 943-53-44-44
-                <Link to="tel:+15713069039" className="phone-link">
+                <Link to="tel:+251 943-53-44-44" className="phone-link">
                   <i className="bi bi-telephone-fill"></i>
                 </Link>
               </p>
               <p>
-                <strong>Email:</strong> admin@nilefinancialservices.com
-                <Link to="mailto:admin@nilefinancialservices.com" className="email-link">
+                <strong>Email:</strong> yawispa4353@gmail.com
+                <Link to="mailto:yawispa4353@gmail.com" className="email-link">
                   <i className="bi bi-envelope"></i>
                 </Link>
               </p>
@@ -71,13 +71,7 @@ function Footer() {
 
           <div className="footer-links" ref={usefulLinksRef}>
             <h4 onClick={toggleUsefulLinks} className="links-header">Useful Links</h4>
-            {/* <ul className={isUsefulLinksOpen ? 'links-list open' : 'links-list'}>
-              <li> <Link to="/" onClick={scrollToTop}>Home</Link></li>
-              <li> <Link to="/about" onClick={scrollToTop}>About us</Link></li>
-              <li> <Link to="/services" onClick={scrollToTop}>Services</Link></li>
-              <li> <Link to="/contact" onClick={scrollToTop}>Contact us</Link></li>
-              <li> <Link to="/faq" onClick={scrollToTop}>FAQ</Link></li>
-            </ul> */}
+          
             <ul className={isUsefulLinksOpen ? 'links-list open' : 'links-list'}>
   <li><a href="/" onClick={scrollToTop}>Home</a></li>
   <li><a href="/about" onClick={scrollToTop}>About us</a></li>
@@ -103,24 +97,55 @@ function Footer() {
 
           <div className="footer-social">
             <h4 className="social-header">Follow Us</h4>
-           
             <div className="social-icons">
-              <Link to="https://twitter.com/Nilefinancials1" className="icon twitter" target="_blank" rel="noopener noreferrer">
-                <i className="bi bi-twitter"></i>
-              </Link>
-              <Link to="https://facebook.com/NILETAXSERVICES" className="icon facebook" target="_blank" rel="noopener noreferrer">
-                <i className="bi bi-facebook"></i>
-              </Link>
-              <Link to="https://instagram.com/nilefinancialservices_/" className="icon instagram" target="_blank" rel="noopener noreferrer">
-                <i className="bi bi-instagram"></i>
-              </Link>
-              <Link to="https://linkedin.com/in/king-demissie-5a882191/" className="icon linkedin" target="_blank" rel="noopener noreferrer">
-                <i className="bi bi-linkedin"></i>
-              </Link>
-              <Link to="https://wa.me/+251 943-53-44-44" className="icon whatsapp" target="_blank" rel="noopener noreferrer">
-                <i className="bi bi-whatsapp"></i>
-              </Link>
-            </div>
+  <Link 
+    to="https://facebook.com/NILETAXSERVICES" 
+    className="icon facebook" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <i className="bi bi-facebook"></i>
+  </Link>
+
+  <Link 
+    to="https://www.instagram.com/yawispa4353" 
+    className="icon instagram" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <i className="bi bi-instagram"></i>
+  </Link>
+
+  <Link 
+    to="https://t.me/+M96RYQtaTOAyYjM0" 
+    className="icon telegram" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <i className="bi bi-telegram"></i>
+  </Link>
+
+  <Link 
+    to="https://wa.me/message/ZOEH2DPHOXJNK1" 
+    className="icon whatsapp" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <i className="bi bi-whatsapp"></i>
+  </Link>
+
+  
+
+  <Link 
+    to="https://www.tiktok.com/@yawi.spa" 
+    className="icon tiktok" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <i className="bi bi-tiktok"></i>
+  </Link>
+</div>
+
             <Link to="/pp" onClick={scrollToTop} className="privacy-link">Privacy Policy</Link>
           </div>
         </div>
