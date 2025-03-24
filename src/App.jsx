@@ -14,7 +14,7 @@ import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home';
 import OurService from './components/OurService/OurService';
 import { useLocation } from 'react-router-dom';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import  './App.css'
 function App() {
  
