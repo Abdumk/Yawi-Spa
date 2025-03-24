@@ -152,3 +152,11 @@ body {
 .footer-icons {
   overflow: hidden; /* Hide any overflowing content */
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.container {
+  width: 100%;
+  max-width: 100%;
+}

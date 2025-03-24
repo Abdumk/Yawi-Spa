@@ -69,7 +69,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="footer-links" ref={usefulLinksRef}>
+          {/* <div className="footer-links" ref={usefulLinksRef}>
             <h4 onClick={toggleUsefulLinks} className="links-header">Useful Links</h4>
           
             <ul className={isUsefulLinksOpen ? 'links-list open' : 'links-list'}>
@@ -78,9 +78,25 @@ function Footer() {
   <li><a href="/services" onClick={scrollToTop}>Services</a></li>
   <li><a href="/contact" onClick={scrollToTop}>Contact us</a></li>
   <li><a href="/faq" onClick={scrollToTop}>FAQ</a></li>
+  <li><a href="/pp" onClick={scrollToTop}>Privacy Policy</a></li>
+
 </ul>
 
-          </div>
+          </div> */}
+<div className="footer-links" ref={usefulLinksRef}>
+  <h4 onClick={toggleUsefulLinks} className="links-header">Useful Links</h4>
+
+  <ul className={isUsefulLinksOpen ? 'links-list open' : 'links-list'}>
+    <li><a href="#/" onClick={scrollToTop}>Home</a></li>
+    <li><a href="#/about" onClick={scrollToTop}>About us</a></li>
+    <li><a href="#/services" onClick={scrollToTop}>Services</a></li>
+    <li><a href="#/contact" onClick={scrollToTop}>Contact us</a></li>
+    <li><a href="#/faq" onClick={scrollToTop}>FAQ</a></li>
+    <li><a href="#/pp" onClick={scrollToTop}>Privacy Policy</a></li>
+  </ul>
+</div>
+
+
 
           <div className="footer-services" ref={servicesRef}>
             <h4 onClick={toggleServices} className="services-header">Our Services</h4>
@@ -99,7 +115,7 @@ function Footer() {
             <h4 className="social-header">Follow Us</h4>
             <div className="social-icons">
   <Link 
-    to="https://facebook.com/NILETAXSERVICES" 
+    to="https://www.facebook.com/yawispa"
     className="icon facebook" 
     target="_blank" 
     rel="noopener noreferrer"

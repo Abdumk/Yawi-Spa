@@ -252,6 +252,7 @@
     .social-icons {
       justify-content: flex-start;
     }
+   
   }
   /* Default color for all <li> elements in footer-links */
   .footer-links .links-list li {
@@ -283,4 +284,5 @@
     .footer-icons {
       flex-direction: column; /* Stack icons vertically if necessary */
     }
+    
   }
