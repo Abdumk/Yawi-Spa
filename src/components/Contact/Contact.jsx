@@ -56,14 +56,16 @@ const Contact = () => {
 
         {/* Google Map */}
         <div className="contact-map">
-          <iframe
-            title="Google Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24857.07233841807!2d-77.32243756748917!3d38.852288612330796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64e96394b91cd%3A0x72326e785448640!2sFairfax%2C%20VA%2C%20USA!5e0!3m2!1sen!2set!4v1738005199393!5m2!1sen!2set"
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d585.8183790307232!2d38.764964570403045!3d8.981293856019384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e0!4m3!3m2!1d8.9812383!2d38.7651575!4m3!3m2!1d8.981255899999999!2d38.7651671!5e0!3m2!1sen!2set!4v1742777101137!5m2!1sen!2set" 
+    width="600" 
+    height="450" 
+    style={{border: 0}} 
+    allowFullScreen 
+    loading="lazy" 
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
       </div>
     </section>
      <br/>
