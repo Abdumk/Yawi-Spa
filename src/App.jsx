@@ -14,7 +14,7 @@ import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home';
 import OurService from './components/OurService/OurService';
 import { useLocation } from 'react-router-dom';
-import { HashRouter as Router } from 'react-router-dom';
+
 import  './App.css'
 function App() {
  
@@ -23,7 +23,7 @@ function App() {
     <>
      {/* {!isServicePage && <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />} */}
       <Header />
-      <Router>
+     
       <Routes>
         <Route path="" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
@@ -32,7 +32,7 @@ function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/pp" element={<PrivacyPolicy />} />
       </Routes>
-      </Router>
+      
       <Footer />
     </>
   )
