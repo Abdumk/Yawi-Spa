@@ -81,9 +81,9 @@ function Home() {
           </div>
         </div> */}
 
-<div className="our">
+<div className="our-info-letus">
           <div className="container-letus">
-            <div className="our-info">
+            <div className="our-info-letus">
               {/* <img src={backgroundImage} class="img-responsive" alt="" /> */}
               <h1 className="let">Let Us Take Care of You!</h1>
               {/* <p>

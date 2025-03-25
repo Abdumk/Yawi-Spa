@@ -445,6 +445,11 @@ main {
     gap: 8px;
   }
 
+  .let {
+    font-size: 12px;
+    color:white;
+  }
+
  
 
 
@@ -470,9 +475,11 @@ main {
     gap: 8px;
   }
   .let {
-    font-size: 20px;
+    font-size: 12px;
+    color:white;
   }
 
+  
  
 
  
@@ -505,7 +512,8 @@ main {
     flex-direction: column;
   }
   .let {
-    font-size: 20px;
+    font-size: 12px;
+    
   }
 
 
@@ -735,6 +743,8 @@ main {
 }
 .let {
   margin-bottom: 0;
+  color: white;
+  font-size: 2em;
 
 
 }
@@ -750,4 +760,39 @@ main {
   letter-spacing: 1px;
   margin: auto;
   padding: 4%;
+}
+
+.our-info-letus{
+  background: url(../../../public/assets/image/19.jpg) no-repeat center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 400px;
+  text-align: center;
+  padding:3em 0;
+}
+.our-info-letus h4 {
+  font-size: 3em;
+  font-weight: 400;
+  margin: 1em 0 0;
+ color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+.our-info-letus p {
+  font-size: 1em;
+  color: white;
+  line-height: 1.8em;
+  margin: 1em 0;
+ 
+}
+.our-info-letus img {
+  width: 150px;
+  height: 400px;
+  border-radius: 50%;
+  	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
 }
