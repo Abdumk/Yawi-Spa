@@ -180,3 +180,7 @@ color: #007bff;
     font-size: 0.9rem;
   }
 } 
+body,html{
+  overflow-x:hidden ;
+  width: 100%;
+}
