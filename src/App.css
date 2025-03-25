@@ -6,9 +6,11 @@ main {
 }
 
 .container {
+  width: 100%;
   max-width: 1200px;
   margin: auto;
   padding: 0 20px;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -144,19 +146,37 @@ font-size: 1.2rem;
 color: #007bff;
 }
 
-body {
-  overflow-x: hidden; /* Prevent horizontal scroll */
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 2rem;
+  }
+  .section-title p {
+    font-size: 1rem;
+  }
+  .testimonial-item {
+    padding: 15px;
+  }
+  .testimonial-img {
+    width: 100px;
+    height: 100px;
+  }
 }
 
-/* Adjust the footer icon section */
-.footer-icons {
-  overflow: hidden; /* Hide any overflowing content */
-}
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-.container {
-  width: 100%;
-  max-width: 100%;
-}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  .testimonial-item {
+    padding: 10px;
+  }
+  .testimonial-img {
+    width: 80px;
+    height: 80px;
+  }
+  .section-title h2 {
+    font-size: 1.8rem;
+  }
+  .section-title p {
+    font-size: 0.9rem;
+  }
+} 

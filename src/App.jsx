@@ -8,7 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import FAQ from './components/FAQ/FAQ';
-import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
+import PrivacyPolicy from './components/Privacypolicy/Privacypolicy';
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home';

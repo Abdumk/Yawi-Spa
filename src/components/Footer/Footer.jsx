@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import  PrivacyPolicy from '../PrivacyPolicy/PrivacyPolicy';
+import  PrivacyPolicy from '../Privacypolicy/Privacypolicy';
 import './Footer.css';
 
 function Footer() {
