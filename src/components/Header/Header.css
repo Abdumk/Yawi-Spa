@@ -366,3 +366,63 @@ li a.active {
       }
       
   }
+
+
+  /*the new code added*/ 
+
+  .nav {
+    position: absolute; /* or fixed if you want it to stay on scroll */
+    top: 91px; /* Adjust according to your header height */
+    left: 0;
+    
+    width: fit-content;
+    background-color: black;
+    z-index: 1000; /* Ensure it's above other elements */
+    display: none; /* Hide by default */
+    padding:5px 2px; /* Adjust padding to fit content */
+  border-radius: 8px;
+  }
+  
+  .nav.open {
+    display: block; /* Show when active */
+  }
+  
+  .hamburger {
+    position: absolute;
+  
+    left: 5px;
+    font-size: 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(9, 9, 9);
+    z-index: 1100; /* Ensure it's above other elements */
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .nav ul li {
+    padding: 2px;
+  }
+  
+  .nav ul li a {
+    color: rgb(245, 8, 8);
+    text-decoration: none;
+  }
+  @media screen and (max-width: 768px) { /* Adjust breakpoint as needed */
+    .nav .homebanner { 
+      display: none; /* Hides the logo in the nav */
+    }
+    .nav {
+      width:35%; /* Adjust width for mobile */
+      left: 17%;
+      transform: translateX(-50%); /* Center it */
+      border-radius: 0; /* Remove rounded corners */
+    }
+  }
+  
