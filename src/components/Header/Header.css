@@ -282,7 +282,7 @@ li a.active {
 }
 
 @media (max-width: 768px) {
-    .hamburger {
+    /* .hamburger {
         display: block;
 
       }
@@ -294,7 +294,7 @@ li a.active {
         top: 5px;
         
         width: 20%;
-        /* background: black; */
+        background: black;
         padding: 1px 500px 0 0;
         
       }
@@ -308,6 +308,51 @@ li a.active {
         gap: 5px;
        background-color: black;
        
+      } */
+      .nav {
+        position: absolute; /* or fixed if you want it to stay on scroll */
+        top: 91px; /* Adjust according to your header height */
+        left: 0;
+        flex-direction: column;
+        width: fit-content;
+        background-color: black;
+        z-index: 1000; /* Ensure it's above other elements */
+        display: none; /* Hide by default */
+        padding:5px 2px; /* Adjust padding to fit content */
+      border-radius: 8px;
+      }
+      
+      .nav.open {
+        display: block; /* Show when active */
+      }
+      
+      .hamburger {
+        position: absolute;
+        display: block;
+        left: 5px;
+        font-size: 12px;
+        background: white;
+        border: none;
+        cursor: pointer;
+        color: rgb(9, 9, 9);
+        z-index: 1100; /* Ensure it's above other elements */
+      }
+      
+      .nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        flex-direction: column;
+      }
+      
+      .nav ul li {
+        padding: 2px;
+      }
+      
+      .nav ul li a {
+        color: rgb(245, 8, 8);
+        text-decoration: none;
       }
       .head-nav {
         border: 2px solid #CBC7A4;
@@ -334,7 +379,7 @@ li a.active {
       }
       /*-- responsive-mediaquries --*/
       @media(max-width:640px){
-        .hamburger {
+        /* .hamburger {
             display: block;
     
           }
@@ -346,9 +391,54 @@ li a.active {
             top: 5px;
             
             width: 20%;
-            /* background: black; */
+            background: black;
             padding: 1px 500px 0 0;
             
+          } */
+          .nav {
+            position: absolute; /* or fixed if you want it to stay on scroll */
+            top: 91px; /* Adjust according to your header height */
+            left: 0;
+            flex-direction: column;
+            width: fit-content;
+            background-color: black;
+            z-index: 1000; /* Ensure it's above other elements */
+            display: none; /* Hide by default */
+            padding:5px 2px; /* Adjust padding to fit content */
+          border-radius: 8px;
+          }
+          
+          .nav.open {
+            display: block; /* Show when active */
+          }
+          
+          .hamburger {
+            position: absolute;
+            display: block;
+            left: 5px;
+            font-size: 12px;
+            background: white;
+            border: none;
+            cursor: pointer;
+            color: rgb(9, 9, 9);
+            z-index: 1100; /* Ensure it's above other elements */
+          }
+          
+          .nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            flex-direction: column;
+          }
+          
+          .nav ul li {
+            padding: 2px;
+          }
+          
+          .nav ul li a {
+            color: rgb(245, 8, 8);
+            text-decoration: none;
           }
       .header-top {
         padding: 0.5em;
@@ -370,59 +460,62 @@ li a.active {
 
   /*the new code added*/ 
 
-  .nav {
-    position: absolute; /* or fixed if you want it to stay on scroll */
-    top: 91px; /* Adjust according to your header height */
-    left: 0;
-    
-    width: fit-content;
-    background-color: black;
-    z-index: 1000; /* Ensure it's above other elements */
-    display: none; /* Hide by default */
-    padding:5px 2px; /* Adjust padding to fit content */
-  border-radius: 8px;
-  }
-  
-  .nav.open {
-    display: block; /* Show when active */
-  }
-  
-  .hamburger {
-    position: absolute;
-  
-    left: 5px;
-    font-size: 12px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: rgb(9, 9, 9);
-    z-index: 1100; /* Ensure it's above other elements */
-  }
-  
-  .nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-  }
-  
-  .nav ul li {
-    padding: 2px;
-  }
-  
-  .nav ul li a {
-    color: rgb(245, 8, 8);
-    text-decoration: none;
-  }
+ 
   @media screen and (max-width: 768px) { /* Adjust breakpoint as needed */
-    .nav .homebanner { 
-      display: none; /* Hides the logo in the nav */
+    /* .nav .homebanner { 
+      display: none; 
     }
     .nav {
-      width:35%; /* Adjust width for mobile */
+      width:35%;
       left: 17%;
-      transform: translateX(-50%); /* Center it */
-      border-radius: 0; /* Remove rounded corners */
+      transform: translateX(-50%); 
+      border-radius: 0;
+    } */
+    .hamburger {
+      position: absolute;
+     display: block;
+      left: 5px;
+      font-size: 12px;
+      background: white;
+      border: none;
+      cursor: pointer;
+      color: rgb(9, 9, 9);
+      z-index: 1100; /* Ensure it's above other elements */
+    }
+    .nav {
+      position: absolute; /* or fixed if you want it to stay on scroll */
+      top: 91px; /* Adjust according to your header height */
+      left: 0;
+      flex-direction: column;
+      width: fit-content;
+      background-color: black;
+      z-index: 1000; /* Ensure it's above other elements */
+      display: none; /* Hide by default */
+      padding:5px 2px; /* Adjust padding to fit content */
+    border-radius: 8px;
+    }
+    
+    .nav.open {
+      display: block; /* Show when active */
+    }
+    
+   
+    
+    .nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      flex-direction: column;
+    }
+    
+    .nav ul li {
+      padding: 2px;
+    }
+    
+    .nav ul li a {
+      color: rgb(245, 8, 8);
+      text-decoration: none;
     }
   }
   
