@@ -5,10 +5,29 @@ import Miniheader from "../Miniheader/Miniheader";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const navRef = useRef(null); // Add the missing ref
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      // Ensure click is outside the nav and hamburger button
+      if (
+        navRef.current &&
+        !navRef.current.contains(event.target) &&
+        !event.target.classList.contains("hamburger")
+      ) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <>
@@ -18,7 +37,7 @@ function Header() {
         <button className="hamburger" onClick={toggleMenu}>
           &#9776;
         </button>
-        <nav className={isOpen ? "nav open" : "nav"}>
+        <nav ref={navRef} className={isOpen ? "nav open" : "nav"}>
           <ul>
             <div>
               <Link to="/" className="homebanner">
