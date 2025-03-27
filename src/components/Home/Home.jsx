@@ -232,7 +232,7 @@ function Home() {
         <div className="our">
           <div className="container">
             <div className="our-info">
-              <img src={img2} class="img-responsive" alt="" />
+              {/* <img src={img2} class="img-responsive" alt="" /> */}
               <h4>
                 Welcome to Yawi Spa – Your Ultimate Relaxation Destination! 🌿✨{" "}
               </h4>

@@ -522,13 +522,7 @@ main {
     width: 100%;
     height: auto;
   }
-  .container {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 1px 0 -17px;
-    padding: 0px 22px;
-    box-sizing: border-box;
-  }
+ 
 }
 
 .introduction {
@@ -781,7 +775,7 @@ main {
   padding:3em 0;
 }
 .our-info-letus h4 {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 400;
   margin: 1em 0 0;
  color: white;
@@ -819,4 +813,79 @@ main {
 ul li {
   font-size: 13px;
   margin-bottom: 8px;
+}
+
+/* new add fro jar from GP */
+.our {
+  padding: 20px;
+  text-align: center;
+}
+
+/* .our-info {
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+} */
+
+/* .our-info img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+} */
+
+.our-info h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin: 0 10px 0 10px;
+
+  margin-top: 10px;
+}
+
+.our-info p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap:break-word;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  margin: 0 10px 0 10px;
+
+}
+
+@media screen and (max-width: 480px) {
+  .our-info h4 {
+    font-size: 1.2rem;
+  }
+
+  .our-info p {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+  .our-info h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-top: 10px;
+  }
+  
+  .our-info p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+}
 }

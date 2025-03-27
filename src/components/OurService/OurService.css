@@ -339,15 +339,18 @@ ul a:focus {
 .our h4 {
   font-size: 3em;
   font-weight: 400;
-  margin: 1em 0 0;
+  /* change to jar to h4 ceneter */
+
+   margin: 0 90px 0 0px; 
  color: #000000;
   font-family: 'Quicksand', sans-serif;
 }
 .our p {
   font-size: 1em;
   color: #0b0000;
-  line-height: 1.8em;
-  margin: 1em 0;
+  line-height: 1.8em; 
+  /* change to jar to p ceneter */
+   margin: 0 90px 0 0px;   
  
 }
 .our-info img {
@@ -1886,5 +1889,55 @@ p.me {
     background-size: cover; 
    
 
+  }
+}
+
+
+.our {
+  padding: 20px;
+  text-align: center;
+}
+
+.our-info {
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.our-info img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.our-info h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin-top: 10px;
+}
+
+.our-info p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  text-align: justify;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .our-info h4 {
+    font-size: 1.2rem;
+  }
+
+  .our-info p {
+    font-size: 0.9rem;
+    padding: 8px;
   }
 }
