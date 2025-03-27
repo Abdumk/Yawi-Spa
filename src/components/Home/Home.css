@@ -522,6 +522,13 @@ main {
     width: 100%;
     height: auto;
   }
+  .container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 1px 0 -17px;
+    padding: 0px 22px;
+    box-sizing: border-box;
+  }
 }
 
 .introduction {
@@ -795,4 +802,21 @@ main {
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
 	-ms-border-radius: 50%;
+}
+
+/* new add from OurServices.css */
+
+.ch-grid {
+	margin: 20px 0px 50px 70px;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+
+ul li {
+  font-size: 13px;
+  margin-bottom: 8px;
 }

@@ -1,3 +1,9 @@
+
+  
+ 
+
+
+
 import React, { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
 import img1 from "../../../public/assets/image/rezzzzzzzzz.jpg";
@@ -152,12 +158,15 @@ function Home() {
         </div>
       {/* </main> */}
       {/* // Add the following code snippet here */}
+      
+
       <div className="header">
         <div className="header-top">
           <div className="gener">
             {/* <div className="container-services"> */}
+
               {/* 🍀🌱🌺✨🌿🍃 */}
-              <h3 id="benefits-title">🍀🌿🌺 Massage Services 🍀🌿🌺</h3>
+              <h3 id="benefits-title">🍀🌺Massage Services🌺🍀</h3>
               <section className="main">
                 <ul className="ch-grid">
                   <li>

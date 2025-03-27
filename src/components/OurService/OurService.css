@@ -681,14 +681,14 @@ i.mail {
 .contact-form {
   margin: 3em 0 0;
 }
-.ch-grid {
+/* .ch-grid {
 	margin: 20px 780px 50px 0;
 	padding: 0;
 	list-style: none;
 	display: block;
 	text-align: center;
 	width: 100%;
-}
+} */
 .ch-grid:after,
 .ch-item:before {
 	content: '';
@@ -1257,10 +1257,10 @@ h3.banner-main {
   height: 180px;
 }
 .ch-info-wrap {
-  width: 180px;
-  height: 180px;
-  top: 20px;
-  left: 20px;
+  width: 164px;
+  height: 176px;
+  top: 12px;
+  left: 5px;
 }
 .ch-grid li {
   height: 218px;
@@ -1361,8 +1361,8 @@ h3.banner-main {
   width: 42%;
 }
 .ch-item {
-  width: 90%;
-  height: 90%;
+  width: 117%;
+  height: 92%;
 }
 .ch-info-wrap {
   width: 120px;
@@ -1514,6 +1514,11 @@ h3.banner-main {
 .logo {
   width: 42%;
   margin: 1em auto 1.5em;
+  
+}
+ul li {
+  font-size: 13px;
+  margin-bottom: 8px;
 }
 }
 /*-- responsive-mediaquries --*/
