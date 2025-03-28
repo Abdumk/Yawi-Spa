@@ -7,11 +7,14 @@
 import React, { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
 import img1 from "../../../public/assets/image/rezzzzzzzzz.jpg";
-import img2 from "/assets/image/IMG-20250308-WA0005.jpg";
-import img3 from "/assets/image/IMG-20250308-WA0006.jpg";
-import img4 from "../../assets/images/8.jpg";
+import img2 from "/assets/image/a1.jpg";
 
-import img5 from "../../assets/images/3.jpg";
+import img7 from "/assets/image/a2.jpg";
+import img8  from "/assets/image/a3.jpg";
+
+import img4 from "../../assets/images/3.jpg";
+
+
 import Carousel from "../carousel/Carousel";
 
 import backgroundImage from "/assets/image/19.jpg";
@@ -221,13 +224,4 @@ function Home() {
 
 export default Home;
 
-// Berhan Customer:
-// Service:
-// Deep tissue massage 1hr 1500
-// Swedish massage 1hr 1300
-// Hot stone massage 1hr 1500
-// Aromatherapy 1hr 1500
-// Foot massage 30 min 800
-// Head massage 30min 800
 
-// Yawi spa
