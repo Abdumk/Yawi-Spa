@@ -11,14 +11,7 @@ function Miniheader() {
               <i className="bi bi-telephone-fill"></i>
               <span className="d-none d-md-inline ms-2">+251 943-53-44-44</span>
             </Link>
-            {/* <Link
-    to="mailto:yawispa4353@gmail.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="ms-3"
-  >
-    <i className="bi bi-envelope"></i>
-  </Link> */}
+           
           </div>
         <div className="container d-flex justify-content-between">
           {/* Social Media Icons on the Left */}

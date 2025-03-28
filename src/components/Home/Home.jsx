@@ -58,52 +58,14 @@ function Home() {
 
 
       {/* <main> */}
-        {/* <div className="container__content" style={containerStyle}>
-          <div className="subcol1"></div>
-          <div className="subcol2">
-            <div className="subbelow1">
-              <div className="inner1">
-                <h1 className="let">Let Us Take Care of You!</h1>
-                
-                    <p>
-                     - Choosing time for a spa visit also means improving your
-                      health.
-                    </p>
-
-                    <p>
-                      - All massages and facials are given by professionally
-                      trained staff members.
-                    </p>
-                 
-                    <p>
-                      - Our goal is to provide a delightful experience. Visit our
-                      services page to learn more.
-                    </p>
-                 
-                // <div className="client"></div>
-              </div>
-
-            </div>
-          </div>
-        </div> */}
+      
 
 <div className="our-info-letus">
           <div className="container-letus">
             <div className="our-info-letus">
               {/* <img src={backgroundImage} class="img-responsive" alt="" /> */}
               <h1 className="let">Let Us Take Care of You!</h1>
-              {/* <p>
-                {" "}
-                @ Yawi Spa, we bring the art of relaxation right to your
-                doorstep. Whether you're at home or staying in a hotel, our
-                expert therapists are just a call away, ready to provide a
-                rejuvenating experience tailored to your needs. Because you
-                deserve the very best in self-care, we ensure every session
-                leaves you feeling refreshed and restored. Relax, unwind, and
-                let Yawi Spa transform your space into a sanctuary of peace and
-                well-being. Your journey to ultimate relaxation starts here!
-                🌸💆‍♂️💆‍♀️
-              </p> */}
+             
                <p>
                      🌸 Choosing time for a spa visit also means improving your
                       health.

@@ -45,10 +45,7 @@ function Footer() {
               <span className="site-name">Yawi Spa Services.</span>
             </Link>
             <div className="contact-details">
-              {/* <p>Dumfries, VA </p>
-              <p>
-  Alexandria, VA&nbsp;&nbsp;&nbsp;Fairfax, VA&nbsp;&nbsp;&nbsp;Washington, DC&nbsp;&nbsp;&nbsp;Maryland, United States
-</p> */}
+              
               <p>Addis Ababa, Ethiopia</p>
               <p>
                 Bole,&nbsp;&nbsp;&nbsp;4 kilo ,&nbsp;&nbsp;&nbsp;Gotera, &nbsp;&nbsp;&nbsp;Megenagna,
@@ -70,21 +67,7 @@ function Footer() {
             </div>
           </div>
 
-          {/* <div className="footer-links" ref={usefulLinksRef}>
-            <h4 onClick={toggleUsefulLinks} className="links-header">Useful Links</h4>
-
-            <ul className={isUsefulLinksOpen ? 'links-list open' : 'links-list'}>
-              <li><a href="/" onClick={scrollToTop}>Home</a></li>
-              <li><a href="/about" onClick={scrollToTop}>About us</a></li>
-              <li><a href="/services" onClick={scrollToTop}>Services</a></li>
-              <li><a href="/contact" onClick={scrollToTop}>Contact us</a></li>
-              <li><a href="/faq" onClick={scrollToTop}>FAQ</a></li>
-              <li><a href="/pp" onClick={scrollToTop}>Privacy Policy</a></li>
-
-            </ul>
-
-          </div> */}
-
+         
 
           <div className="footer-links" ref={usefulLinksRef}>
             <h4 onClick={toggleUsefulLinks} className="links-header">Useful Links</h4>

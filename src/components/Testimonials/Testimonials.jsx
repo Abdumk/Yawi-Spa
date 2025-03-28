@@ -70,29 +70,3 @@ const Testimonials = () => {
 export default Testimonials; 
 
 
-
-{/* <div className="about-section py-10">
-  <h3 className="about-title text-center text-3xl font-semibold text-gray-700 mb-6">Customer Testimonials</h3>
-  
-  <div className="testimonial-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    
-    <div className="testimonial-card p-6 bg-white rounded-lg shadow-lg">
-      <p className="testimonial-text text-gray-600 text-lg mb-4">💬 "Yawi Spa provides the best home massage service I’ve ever experienced! The therapist was professional, knowledgeable, and made me feel completely relaxed." – Alem, Addis Ababa</p>
-    </div>
-    
-
-    <div className="testimonial-card p-6 bg-white rounded-lg shadow-lg">
-      <p className="testimonial-text text-gray-600 text-lg mb-4">💬 "Their pregnancy massage was a lifesaver! It helped me with back pain and improved my sleep." – Mimi, Ethiopia</p>
-    </div> <br/>
-
-
-    <div className="testimonial-card p-6 bg-white rounded-lg shadow-lg">
-      <p className="testimonial-text text-gray-600 text-lg mb-4">💬 "I booked a bridal shower massage session, and it was amazing! My friends and I felt so relaxed before my big day." – Sara, Addis Ababa</p>
-    </div>
-
-
-    <div className="testimonial-card p-6 bg-white rounded-lg shadow-lg">
-      <p className="testimonial-text text-gray-600 text-lg mb-4">💬 "As an elderly client, I appreciate the continued care and discounts. Their team is very patient and skilled." – Kassahun, Addis Ababa</p>
-    </div>
-  </div>
-</div> */}
