@@ -510,7 +510,7 @@ i.mail {
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
-  min-height: 250px;
+  
 }
 .about {
   margin: 3em 0 0;
@@ -1226,6 +1226,9 @@ h3.banner-main {
   .about ul {
     padding: 0 10px;
   }
+  .banner1 {
+    min-height: 240px;
+  }
   .services-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1250,6 +1253,9 @@ h3.banner-main {
 }
 .generators h3 {
   font-size: 2em;
+}
+.banner1 {
+  min-height: 240px;
 }
 .ch-item {
   width: 100%;
@@ -1387,6 +1393,7 @@ h3.banner-main {
 
 
 }
+
 .gener h3 {
   font-size: 1.8em;
   margin:0;
@@ -1873,9 +1880,7 @@ p.me {
   }
 
   .banner1 {
-    background: url(../../../public/assets/image/BW_tranquility_massagetreatment_lp_v2\ copy\ 2.webp) no-repeat center fixed; /* Optional: Change to a different image for larger screens */
-    background-size: cover; 
-   
+    min-height: 240px;
   }
 }
 
@@ -1885,10 +1890,7 @@ p.me {
   }
 
   .banner1 {
-    background: url(../../../public/assets/image/BW_tranquility_massagetreatment_lp_v2\ copy\ 2.webp) no-repeat center fixed; /* Optional: Change to an even larger image */
-    background-size: cover; 
-   
-
+    min-height: 240px;
   }
 }
 
@@ -1934,6 +1936,10 @@ p.me {
 @media screen and (max-width: 768px) {
   .our-info h4 {
     font-size: 1.2rem;
+  }
+
+  .banner1 {
+    min-height: 240px;
   }
 
   .our-info p {
