@@ -34,6 +34,9 @@ const OurService = () => {
       <div className="c">
         {/* // Add the following code snippet here
         //  */}
+        <br/>
+        <br/>
+
         <div class="col-md-9 header-right">
           <div className="logo">
             <h1 className="banner-main">Services</h1>

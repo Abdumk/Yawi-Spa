@@ -164,8 +164,8 @@ const About = () => {
             ⏰ <strong>Opening Hours:</strong>
           </p>
           <ul className="about-list">
-            <li><strong>Monday – Friday:</strong> 12:00 PM – 12:00 AM</li>
-            <li><strong>Saturday – Sunday:</strong> 12:00 PM – 6:00 PM</li>
+            <li><strong>Monday – Friday:</strong> 12:00 AM – 2:00 PM</li>
+            <li><strong>Saturday – Sunday:</strong> 12:00 AM – 2:00 PM</li>
           </ul>
         </div>
       </div>
