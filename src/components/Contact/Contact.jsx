@@ -7,6 +7,9 @@ const Contact = () => {
     <section id="contact" className="contact-section">
       <div className="contact-container">
         {/* Title Section */}
+        <br/>
+        <br/>
+
         <div className="contact-title">
         <div className="logo-title">
 <h1 className="banner-main">Contact Us</h1>

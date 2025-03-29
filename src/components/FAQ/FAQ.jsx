@@ -65,7 +65,7 @@ const faqData = [
   },
   {
     question: "What are your operating hours?",
-    answer: "We are available daily from 9 AM to 10 PM. You can schedule your massage at a time that suits you best.",
+    answer: "We are available daily from 12 AM to 2 PM. You can schedule your massage at a time that suits you best.",
   },
   {
     question: "What should I expect during a massage session?",
