@@ -39,6 +39,12 @@
     .about .container {
       text-align: center;
     }
+    .about-section h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      
+      color: #4a4a4a;
+    }
     .about-content {
       padding: 10px;
     }
@@ -49,7 +55,13 @@
   
   @media screen and (max-width: 768px) {
     .about h3 {
+      font-size: 1rem;
+    }
+    .about-section h3 {
       font-size: 1.5rem;
+      font-weight: 700;
+      
+      color: #4a4a4a;
     }
     .about p, .about ul li {
       font-size: 0.95rem;
@@ -58,15 +70,23 @@
       width: 90%;
       margin: auto;
     }
+  
+    
   }
   
   @media screen and (max-width: 576px) {
-    .about {
+    /* .about {
       padding: 20px 10px;
-    }
+    } */
     .about h3 {
-      font-size: 1.2rem;
+      font-size: 1rem;
       text-align: center;
+    }
+    .about-section h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      
+      color: #4a4a4a;
     }
     .about p, .about ul li {
       font-size: 0.85rem;
@@ -80,6 +100,8 @@
     .about ul {
       padding: 0 10px;
     }
+   
+
   }
   
   /* Staff Section */
@@ -202,3 +224,18 @@
 #philosophy .about-content {
   padding-right: 30px; /* Add padding to the right side */
 }
+
+
+.massage-service-yawi-spa {
+  font-size: 25px;
+  font-weight: bold;
+  color: black; /* Attention-grabbing red */
+  text-align: center;
+  background-color: #ffe0e0; /* Light red background for emphasis */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 80%;
+  margin: 10px auto; /* Centers the element horizontally */
+}
+

@@ -1947,3 +1947,16 @@ p.me {
     padding: 8px;
   }
 }
+
+.massage-service-yawi {
+  font-size: 25px;
+  font-weight: bold;
+  color: black; /* Attention-grabbing red */
+  text-align: center;
+  background-color: #ffe0e0; /* Light red background for emphasis */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 80%;
+  margin: 10px auto; /* Centers the element horizontally */
+}
