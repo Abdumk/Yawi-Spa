@@ -166,6 +166,10 @@ ul.callbacks_tabs.callbacks1_tabs {
 .caption h2 {
   font-size: 2em;
 }
+.banner1 {
+  display: none; /* Hide the banner on smaller screens */
+}
+
 }
 @media(max-width:480px){
 .callbacks_nav {
@@ -182,6 +186,12 @@ ul.callbacks_tabs.callbacks1_tabs {
 	bottom: -30px;
 	left: 4px;
 }
+.banner1 {
+  display: none; /* Hide the banner on smaller screens */
+}
+.logo .about-text h1{
+  font-size: 20px;
+}
 }
 @media(max-width:320px){
 .callbacks_nav {
@@ -189,6 +199,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .caption p{
 	margin:0.2em 0;
+}
+.logo .about-text h1{
+  font-size: 20px;
 }
 }
 .logo {
@@ -1507,7 +1520,7 @@ h3.banner-main {
   margin-top: 3em;
 }
 .logo h1 {
-  font-size: 3em;
+  font-size: 28px;
 }
 .header-left {
   padding: 5.8em 0 0;
@@ -1665,7 +1678,7 @@ ul li {
   min-height: 57px;
 }
 h3.banner-main {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 .services-left {
   padding: 0;
@@ -1758,7 +1771,7 @@ p.me {
 }
 }
 .banner1 {
-  background: url(../../../public/assets/image/BW_tranquility_massagetreatment_lp_v2\ copy\ 2.webp) no-repeat center fixed; 
+  background: url(../../assets/images/bannerservice.webp) no-repeat center fixed; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1880,7 +1893,7 @@ p.me {
   }
 
   .banner1 {
-    min-height: 240px;
+    display: none; /* Hide the banner on smaller screens */
   }
 }
 
@@ -1890,7 +1903,8 @@ p.me {
   }
 
   .banner1 {
-    min-height: 240px;
+    /* min-height: 240px; */
+   
   }
 }
 
@@ -1939,8 +1953,9 @@ p.me {
   }
 
   .banner1 {
-    min-height: 240px;
+    display: none; /* Hide the banner on smaller screens */
   }
+ 
 
   .our-info p {
     font-size: 0.9rem;

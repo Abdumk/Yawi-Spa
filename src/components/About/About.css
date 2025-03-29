@@ -1,3 +1,4 @@
+
 .about {
     max-width: 1200px;
     padding: 20px 20px;
@@ -70,6 +71,11 @@
       width: 90%;
       margin: auto;
     }
+    #about1 .col-lg-6 img {
+      width: 90%; /* Adjust width for a better fit */
+    }
+  
+   
   
     
   }
@@ -100,7 +106,10 @@
     .about ul {
       padding: 0 10px;
     }
-   
+    #about1 .col-lg-6 img {
+      width: 100%; /* Adjust width for a better fit */
+     margin-right: 100px;
+    }
 
   }
   
@@ -125,6 +134,7 @@
   .about .container {
     display: flex;
     flex-wrap: wrap;
+    
   }
   
   .about .container .col-lg-6 {
@@ -200,8 +210,10 @@
 
 /* Optionally, add some padding and margin for better spacing */
 #about1 .col-lg-6 img {
-  width: 100%;
-  height: auto; /* Ensure the image fits within the column */
+  width: 100%; /* Make it responsive */
+  max-width: 100%; /* Prevent overflow */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space */
 }
 
 #about1 .about-content {

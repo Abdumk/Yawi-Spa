@@ -16,20 +16,20 @@ const About = () => {
   return (
     <>
       <div className="c">
-      <br />
-      <br />
+        <br />
+        <br />
         <div className="col-md-9 header-right">
           <div className="logo">
-            <h1 className="banner-main">About Us</h1>
+            <h1 className="banner-main about-text">About Us</h1>
           </div>
-         
+
           <p className="massage-service-yawi-spa">
-          We provide door-to-door massage service in hotels and homes for your
-          convenience.
-        </p>
+            We provide door-to-door massage service in hotels and homes for your
+            convenience.
+          </p>
           {/* <div className="banner1"></div> */}
         </div>
-       
+
         {/* About Section */}
         <section id="about1" className="about-section light-background">
           {/* Section Title */}
@@ -116,6 +116,7 @@ const About = () => {
                 data-aos-delay="200"
               >
                 <div className="about-content ps-0 ps-lg-3">
+                  
                   <h3>Why Choose Us?</h3>
                   <br />
                   <br />
