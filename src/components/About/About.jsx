@@ -22,12 +22,12 @@ const About = () => {
            
           </div>
       
-          <div className="banner1"></div>
+          {/* <div className="banner1"></div> */}
         </div>
 
 
         {/* About Section */}
-        <section id="about" className="about section light-background">
+        <section id="about" className="about-section light-background">
   {/* Section Title */}
   <div className="container">
     <div className="row gy-3">
