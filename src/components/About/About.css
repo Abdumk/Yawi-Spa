@@ -109,6 +109,7 @@
     #about1 .col-lg-6 img {
       width: 100%; /* Adjust width for a better fit */
      margin-right: 100px;
+     padding-left: 20px;
     }
 
   }
@@ -136,9 +137,12 @@
     flex-wrap: wrap;
     
   }
-  
-  .about .container .col-lg-6 {
+  /* to make centert h3 and ul in home page */
+  /* .about .container .col-lg-6 {
     padding: 20px;
+  } */
+  .about .container .col-lg-6 {
+    padding: 0px 0px 0px 190px;
   }
   
   .about .container .about-content {

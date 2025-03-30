@@ -59,18 +59,23 @@
   }
   
   .content p strong {
-    color: #333;
+    color:  #f9f9f9;
   }
 
   .privacy-policy {
     padding: 60px 0;
     background-color: #f9f9f9;
-    /* background-image: url('../../../public/assets/image/IMG-20250308-WA0007.jpg'); */
-    background-image: url('../../../public/assets/image/IMG-20250308-WA0008.jpg'); 
-
-    /* background-image: url('../../../public/assets/image/IMG-20250308-WA0009.jpg');  */
-
+     background-image: url('../../assets/images/IMG-20250308-WA0008.jpg'); 
     background-size: cover; /* Ensures the image covers the entire section */
     background-position: center center; /* Centers the image */
     background-attachment: fixed; /* Keeps the background image fixed during scrolling */
+}
+
+.contact-link {
+  color: rgb(248, 188, 6);
+  text-decoration: none; /* Optional: Removes underline */
+}
+
+.contact-link:hover {
+  text-decoration: underline; /* Optional: Adds underline on hover */
 }

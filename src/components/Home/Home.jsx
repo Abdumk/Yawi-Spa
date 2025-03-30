@@ -1,26 +1,16 @@
-
-  
- 
-
-
-
 import React, { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
-import img1 from "../../../public/assets/image/rezzzzzzzzz.jpg";
+// import img2  from "../../assets/images/bannerservice.webp";
+// import img4 from "../../assets/images/hhotstone.jpg";
+
+import img1 from "../../assets/images/rezzzzzzzzz.jpg";
 import img2 from "/assets/image/a1.jpg";
-
-import img7 from "/assets/image/a2.jpg";
-import img8  from "/assets/image/a3.jpg";
-
-import img4 from "../../assets/images/3.jpg";
-
-
+import img3 from "../../assets/images/pregnancemassage.png";
 import Carousel from "../carousel/Carousel";
-
 import backgroundImage from "/assets/image/19.jpg";
 import "./Home.css";
 
-const images = [img1, img2, img4];
+const images = [img1,img3,img2];
 
 const containerStyle = {
   // backgroundImage: `url(${backgroundImage})`,

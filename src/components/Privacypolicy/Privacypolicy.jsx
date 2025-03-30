@@ -40,9 +40,10 @@ function Privacypolicy() {
             If you have any questions or concerns about this Privacy Policy, feel free to reach out to us at:
           </p>
           <p>
-            <strong>Email:</strong> <a href="mailto:yawispa4353@gmail.com">yawispa4353@gmail.com</a><br />
-            <strong>Phone:</strong> <a href="tel:+251943537172">+251 943-53-71-72</a>
-          </p>
+  <strong>Email:</strong> <a href="mailto:yawispa4353@gmail.com" class="contact-link">yawispa4353@gmail.com</a><br />
+  <strong>Phone:</strong> <a href="tel:+251943537172" class="contact-link">+251 943-53-71-72</a>
+</p>
+
         </div>
       </div>
     </section>
