@@ -156,7 +156,7 @@ function Home() {
                         <div className="ch-info">
                           <div className="ch-info-front ch-img-3"></div>
                           <div className="ch-info-back">
-                            <h3>Hot stone</h3>
+                            <h3>Face</h3>
                             <p>Relieve tension and clear your mind</p>
                           </div>
                         </div>
