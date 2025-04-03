@@ -103,7 +103,7 @@ function Footer() {
             <h4 className="social-header">Follow Us</h4>
             <div className="social-icons">
               <Link
-                to="https://www.facebook.com/yawispa"
+                to="https://web.facebook.com/profile.php?id=61574682343559"
                 className="icon facebook"
                 target="_blank"
                 rel="noopener noreferrer"

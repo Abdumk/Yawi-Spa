@@ -44,7 +44,7 @@ function Miniheader() {
     <i className="bi bi-tiktok"></i>
   </Link>
   <Link
-    to="https://www.facebook.com/yawispa"
+    to="https://web.facebook.com/profile.php?id=61574682343559"
     target="_blank"
     rel="noopener noreferrer"
     className="ms-3"
