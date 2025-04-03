@@ -103,13 +103,13 @@ const About = () => {
           </div>
         </section>
 
-        <section id="about1" className="about section light-background">
-          {/* Section Title */}
+        {/* <section id="about1" className="about section light-background">
+          
           <div className="container" style={{ minHeight: "300px" }}>
             {" "}
-            {/* Set a higher minHeight for more space */}
+           
             <div className="row gy-3">
-              {/* Left Side: Text Content (Why Choose Us) */}
+             
               <div
                 className="col-lg-6 d-flex flex-column justify-content-center"
                 data-aos="fade-up"
@@ -156,7 +156,7 @@ const About = () => {
                 </div>
               </div>
 
-              {/* Right Side: Text Content (Our Philosophy & Values) */}
+              
               <div
                 className="col-lg-6 d-flex flex-column justify-content-center"
                 data-aos="fade-up"
@@ -189,7 +189,76 @@ const About = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+
+<section id="about1" className="about section light-background">
+  <div className="abt1-container">
+    <div className="row gy-4">
+      {/* Left Side: Text Content (Why Choose Us) */}
+      <div
+        className="col-lg-6 d-flex flex-column justify-content-center"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <div className="about-content">
+          <h3 className="section-title">Why Choose Us?</h3>
+          <ul className="feature-list">
+            <li>
+              <strong>5 Years of Professional Experience</strong> in
+              massage therapy.
+            </li>
+            <li>
+              <strong>Convenient Service</strong> – We bring
+              relaxation to your location.
+            </li>
+            <li>
+              <strong>Specialized Services</strong> – Including
+              pregnancy, baby care, and bridal shower massages.
+            </li>
+            <li>
+              <strong>Exclusive Discounts</strong> – Senior clients
+              enjoy continuous care packages.
+            </li>
+            <li>
+              <strong>Wellness Support</strong> – Expert advice on
+              diet, sleep, and relaxation techniques.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Right Side: Text Content (Our Philosophy & Values) */}
+      <div
+        className="col-lg-6 d-flex flex-column justify-content-center"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <div className="about-content">
+          <h3 className="section-title">Our Values</h3>
+          <ul className="feature-list">
+            <li>
+              <strong>Relaxation First</strong> – Creating a peaceful
+              atmosphere for you to unwind.
+            </li>
+            <li>
+              <strong>Customer Satisfaction</strong> – Your well-being
+              is our priority.
+            </li>
+            <li>
+              <strong>Personalized Treatments</strong> – Tailored to
+              your specific needs, body type, and health conditions.
+            </li>
+            <li>
+              <strong>Wellness Guidance</strong> – Advice on diet based
+              on age and blood type, and best sleep positions for better
+              rest.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
         <Testimonials />
 
